@@ -1,0 +1,13 @@
+project_path: 
+log_folder: /tmp/service-runner-log
+
+dependency_map:
+
+
+uncommitted_cmd: ""
+uncommitted_cmd_msg: ""
+
+update_project_cmd:
+
+start_project_cmd: ""
+start_project_suffix_cmd: "2>&1 | tee -a $LOG_FOLDER/$project.log"
